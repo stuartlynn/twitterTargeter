@@ -61,6 +61,7 @@ end
 
 get '/reset' do 
   inital_setup
+  [200]
 end
 
 inital_setup
