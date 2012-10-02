@@ -61,7 +61,7 @@ end
 
 get '/reset' do 
   inital_setup
-  [200]
+  redirect to('/')
 end
 
 inital_setup
