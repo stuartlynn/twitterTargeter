@@ -1,0 +1,23 @@
+[
+  {
+    "id"     : "London",
+    "lat"    : 51.5073,
+    "lon"    : -0.1276,
+    "radius" : 30 ,
+    "unit"   : "km"     
+  },
+  {
+    "id"     : "Birmingham",
+    "lat"    : 52.4861,
+    "lon"    : -1.8904,
+    "radius" : 10 ,
+    "unit"   : "km"     
+  },
+  {
+    "id"     : "London",
+    "lat"    : 53.8012,
+    "lon"    : -1.5486 ,
+    "radius" : 12 ,
+    "unit"   : "km"     
+  }
+]
