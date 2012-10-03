@@ -49,6 +49,7 @@ def assign_unassigned_job(ip)
 end
 
 get '/job_request' do
+  content_type :json
   result = assign_unassigned_job(request.ip) 
   result ||= [404,nil,'no jobs left']
   result
@@ -56,10 +57,12 @@ get '/job_request' do
 end
 
 get '/' do
+  content_type :json
   {active_jobs: active_jobs, pending_jobs: pending_jobs}.to_json
 end
 
 get '/reset' do 
+  content_type :json
   inital_setup
   redirect to('/')
 end
